@@ -14,6 +14,27 @@
 //
 //
 
+const cities = ["London", "Bergen", "Tokyo", "Berlin"]
+
+console.log(cities[1]);
+
+let toString = cities.toString();
+
+console.log(toString);
+
+let newElement = document.createElement("h1");
+newElement.textContent = cities[2];
+document.body.appendChild(newElement);
+
+const frukt = ["banan", "eple", "kiwi", "pære"];
+
+console.log(frukt[3]);
+
+let secondElement = document.createElement("p1");
+secondElement.textContent = frukt[3];
+document.body.appendChild(secondElement);
+
+
 /*
 Oppgave 1
 
@@ -32,6 +53,46 @@ Oppgave 1
 4. Objects of array
 4. Hvordan vi console.log det
 
+*/
+let personOne = {
+  name:"Andres",
+  age:21,
+  iaTeaching: true
+}
+
+console.log(personOne.name);
+
+let people = [
+  {
+     name:"Andres",
+     age:21,
+     isAtFontenehusetBergen:true
+  },
+
+  {
+    name:"Julie",
+    age:27,
+    isAtFontenehusetBergen:true
+  },
+
+  {
+    name:"Adeleine",
+    age:300,
+    isAtFontenehusetBergen:false
+  }
+];
+
+console.log(people);
+
+
+let storeItems = {
+  fruits:["banana","epple", "pineapple"],
+  milk:["coumilk", "cocomilk", "dietmilk"],
+};
+
+console.log(storeItems.fruits[1]);
+
+/*
 Oppgave 2
 
 1. lag et object for 
